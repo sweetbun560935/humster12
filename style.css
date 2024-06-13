@@ -1,0 +1,43 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.points__container {
+  display: flex;
+  align-items: center;
+}
+
+.humster__img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.points {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gogi__img {
+  width: min(500px, 80%);
+  border-radius: 100%;
+  cursor: pointer;
+  outline: 3px solid rgb(255, 225, 0);
+  transition: 0.01s;
+}
+
+.animate {
+  transform: scale(0.95);
+}
